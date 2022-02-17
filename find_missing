@@ -1,0 +1,12 @@
+def find_missing(input):
+ #TODO: Write - Your - Code
+    input.sort()
+
+    print(input)
+    i = 1
+    for n in input:
+        if (n != i):
+            return i
+        i+=1
+
+    return -1
